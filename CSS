@@ -1,0 +1,759 @@
+.arrow {
+height: 25px;
+}
+
+body {
+ font:normal x-small verdana, arial, helvetica, sans-serif;
+ background-color: #FFF;
+ background-image: url(%%ofcourseprobe%%);
+ background-repeat: no-repeat;
+ background-position: 80% 100%;
+ background-attachment: fixed;
+ z-index:1;
+}
+
+.sitetable {
+    list-style-type: none;
+    font-family: "Open Sans","Segoe UI","Helvetica neue",Meiryo,sans-serif;
+    clear: left;
+}
+
+/* RES bullshit */
+.res .RES-keyNav-activeElement{
+    border-right: 2px solid rgb(57, 58, 110);
+    background-color: transparent!important;
+}
+
+.RES-keyNav-activeElement{
+    background-color: transparent!important;
+}
+
+
+.res .RES-keyNav-activeElement .md-container{
+   background-color: transparent!important; 
+}
+
+.res .thing .entry.res-selected .md-container{
+   background-color: transparent!important; 
+}
+
+.res .thing .entry.res-selected{
+    border-right: 2px solid rgb(57, 58, 110);
+    background-color: transparent!important;
+}
+
+.res .thing .RES-keyNav-activeThing.entry.res-selected .md-container{
+   background-color: transparent!important; 
+}
+
+/* end RES bullshit */
+
+div.content {
+    margin: 25px 0 0 20px;
+}
+
+body>.content {
+    overflow: hidden;
+}
+
+div#siteTable_organic {
+    background-color: transparent!important;
+    border: none;
+}
+
+.organic-listing .help{
+    right:5px;
+    bottom:10px;
+}
+
+.organic-listing{
+    margin-bottom:0;
+}
+
+.linklisting .thing, .link.promotedlink.promoted, .search-result {
+    border:  1px solid #ccc;
+    width: 95%;
+    padding: 8px;
+    /* background-color: #ffffff; */
+    box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+    border-radius: 8px;
+}
+
+#header .tabmenu {top: 173px;}
+#header .tabmenu li a {color: #7abed6; border:none; top: 173px;}
+#header .tabmenu li a:hover {color: #ffe482; background-color: #7abed6;}
+#header .tabmenu li.selected a {color: #000!important; background-color: #ffe482;}
+#header .tabmenu li.selected a:hover {color: #000!important; background-color: #7abed6;}
+
+#sr-header-area{
+    background-color: rgb(255,228,130)!important;
+    background-color: rgba(255,228,130,0.60)!important;
+    border-bottom: none;
+    height: 20px;
+    line-height: 20px;
+    box-shadow: 0 1px 0px #55599B;
+    z-index:9999;
+}
+
+
+.footer-parent {
+  height: 1000px;
+  padding-top: 80px;
+  width: 100%;
+  background-image:url(%%lotv-cin%%);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin-bottom: -1px;
+}
+
+.submit-link a:hover, .submit-text a:hover {
+  background-color: #7abed6;
+  border: 0px;
+    border-radius: 8px;
+  text-transform: lowercase !important;
+ }
+
+.submit-link a, .submit-text a {
+  background-color: #ffe482;
+  border: 0px;
+    border-radius: 8px;
+  text-transform: lowercase !important;
+ }
+
+.flairselectbtn {color: #7abed6!important; }
+  
+
+html:lang(gg) .link:not(.linkflair-botw) {display: none}
+html:lang(pp) .link:not(.linkflair-pvp) {display: none}
+html:lang(qq) .link:not(.linkflair-pvt) {display: none}
+html:lang(pz) .link:not(.linkflair-pvz) {display: none}
+
+.titlebox .bottom {display: inline-block;}
+
+/*Hides Subreddit Founder*/
+.titlebox .bottom {font-size: 0px; color: #FFF;}
+.titlebox .bottom:before {font-size: 10px; color: gray; content: " ";}
+.titlebox .bottom .age {font-size: 10px; color: gray;} 
+
+/* Stole this commentarea code from /r/starcraft and I ain't even mad -Danimal */
+
+.commentarea .child .thing .child .thing:hover {
+    border-left: 1px solid #7abed6;
+}
+.commentarea .child .thing .child .thing {
+   background: url(%%atp-commentarea%%) transparent !important;
+    border-width: medium medium medium 1px;
+    border-style: none none none solid;
+    border-image: none;
+}
+.commentarea .child .thing:hover {
+    border-left: 2px solid #7abed6;
+}
+.commentarea .child .thing {
+    background: url(%%atp-commentarea%%) transparent !important;
+    border-width: medium medium medium 2px;
+    border-style: none none none solid;
+    border-image: none;
+    padding: 3px 10px 3px 4px;
+    margin: 0px 0px 3px;
+}
+.commentarea .thing:hover {border-left: 3px solid #7abed6;}
+.commentarea .thing {
+    background: url(%%atp-commentarea%%) transparent !important;
+    border-width: 1px 1px 1px 3px;
+    border-style: solid;
+    border-color: #E3E3E3;
+    padding: 10px 10px 8px 5px;
+    margin: 0px 0px 3px;
+}
+
+.comment, .content .details {margin-left: 10px;}
+
+
+/* BEGIN Header Stickies (h5 & h6) -Danimal */
+
+.side .md h6 {
+    font-weight: normal;
+    font-size: small;
+    position: absolute;
+    top: 141px;
+    left: 420px;    
+    text-decoration: none;
+    background-color: #ffe482;
+    border-color: #7abed6;
+    border-radius: 8px;
+    border-style: outset;
+    border-width: 0 0 1px;
+    color: #00;
+    margin: 10px 13px 5px -8px;
+    padding: 5px 5px 5px 8px; 
+    /* background: #eee; */
+    /* border: 1px solid #7abed6; */
+    /* border-radius: 15px; */
+    /* padding: 6px 10px; */
+    z-index: 100;
+}
+.side .md h6 a {color: black; text-decoration: underline;}
+
+.side .md h5 {
+    font-weight: normal;
+    font-size: small;
+    position: absolute;
+    top: 110px;
+    left: 420px;
+    text-decoration: none;
+    background-color: #ffe482;
+    border-color: #7abed6;
+    border-radius: 8px;
+    border-style: outset;
+    border-width: 0 0 1px;
+    color: #00;
+    margin: 10px 13px 5px -8px;
+    padding: 5px 5px 5px 8px; 
+    /* background: #eee; */
+    /* border: 1px solid #7abed6; */
+    /* border-radius: 15px; */
+    /* padding: 6px 10px; */
+    z-index: 100;
+}
+.side .md h5 a {color: black; text-decoration: underline;}
+
+/* Clever way to make 3D boxes, borrowed from r/wallpapers css. */
+.md {
+    overflow: visible;
+}
+
+div.titlebox div.md > h4:before {
+   content:url(%%expando%%);   
+   float:left;
+   padding: 0px 10px 0px 0px;
+   margin: -8px 0 0 -1px;
+}
+
+div.titlebox div.md h4 {    
+    background-color: #ffe482;
+    font-size: small;
+    border-color: #7abed6;
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-style: outset;
+    border-width: 0 0 1px;
+    color: #003366;
+    margin: 10px 13px 5px -6px;
+    padding: 5px 0 5px 8px;
+    z-index: 100;
+    }
+
+div.titlebox div.md > h3:before {
+   content:url(%%expando%%);   
+   float:left;
+   padding: 0px 10px 0px 0px;
+   margin: -8px 0 0 -1px;
+}
+
+div.titlebox div.md h3 {    
+    background-color: #7abed6;
+    font-size: small;
+    border-color: #ffe482;
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-style: outset;
+    border-width: 0 0 2px;
+    color: #00;
+    margin: 10px 13px 5px -6px;
+    padding: 5px 0 5px 8px;
+    z-index: 100;
+    }
+
+.side .sidebox .nub, .side .sidebox .nub:hover, .side .sidebox .nub:active, .side .sidebox .nub:visited, .side .spacer, .side .icon-menu a, .flairtoggle, .titlebox form.toggle, .leavemoderator {
+    background: none
+    }
+
+
+.titlebox .bottom {
+  display: inline-block;
+}
+
+/* Custom Self Post Icon */
+.self .thumbnail {background: url(%%atp-self%%);}
+
+/*added by LUCARiO*/
+/*upvote clicked*/
+.arrow.upmod {background-image:url(%%pylonup%%); background-position: 0px 0px;}
+/*upvote not clicked*/
+.arrow.up {background-image:url(%%pylonupgrey%%); background-position: 0px 0px;}
+/*downvote clicked*/
+.arrow.downmod {background-image:url(%%darkdown%%); background-position: 0 0px;}
+/*downvote not clicked*/
+.arrow.down {background-image:url(%%darkdowngrey%%); background-position: 0 0px;}
+
+div.side .flairselectbtn:after {
+    content: " - choose your league flair!";
+    font-weight: bold;
+}
+
+/* Changes HR color in sidebar */
+.side .usertext-body hr {border-color: #7abed6;}
+
+
+/*Changing readers in sidebar*/
+div.titlebox span.word {display: none}
+div.titlebox span.number:after {content: " lives for Aiur."}
+div.titlebox .users-online span.number:after {content: " in the Khundelar."}
+
+.sidecontentbox .helplink + .title h1 { 
+font-size: 0 !important 
+}
+
+.sidecontentbox .helplink + .title h1:before { 
+font-size: 10pt !important; 
+content: "JUDICATOR ASSEMBLY" 
+}
+
+.flairselector .customizer { 
+display: none !important 
+} 
+
+.flair { 
+border: none !important; 
+top: 20px; padding: 0px; 
+background: url(%%atp-flair2%%) no-repeat -999px -999px;
+display: inline-block; 
+height: 25px; 
+line-height:25px;
+padding-left: 25px; 
+vertical-align: middle !important; 
+width: auto;
+} 
+
+.flair-mhero {
+border: none !important;
+top: 20px; padding: 0px;
+background: url(%%hero-flair-test%%) no-repeat;
+background-position: 0 0;
+display: inline-block;
+height: 20px;
+line-height:20px;
+padding-left: 31px;
+vertical-align: middle !important;
+width: auto;
+}
+
+.flair-gmhero {
+border: none !important;
+top: 20px; padding: 0px;
+background: url(%%gm-gemini-hero%%) no-repeat;
+background-position: 0 0;
+display: inline-block;
+height: 20px;
+line-height:20px;
+padding-left: 31px;
+vertical-align: middle !important;
+width: auto;
+}
+
+.flair-bisu {
+border: none !important;
+top: 20px; padding: 0px;
+background: url(%%bisuflair%%) no-repeat;
+background-position: 0 0;
+display: inline-block;
+height: 20px;
+line-height:20px;
+padding-left: 31px;
+vertical-align: middle !important;
+width: auto;
+}
+
+.flair-sos {
+border: none !important;
+top: 20px; padding: 0px;
+background: url(%%sosflair%%) no-repeat;
+background-position: 0 0;
+display: inline-block;
+height: 25px;
+line-height:25px;
+padding-left: 25px;
+vertical-align: middle !important;
+width: auto;
+}
+
+.flair-m {
+border: none !important;
+top: 20px; padding: 0px;
+background: url(%%flair-m%%) no-repeat;
+background-position: 0 0;
+display: inline-block;
+height: 25px;
+line-height:25px;
+padding-left: 25px;
+vertical-align: middle !important;
+width: auto;
+}
+
+.flair-wcs {
+border: none !important;
+top: 20px; padding: 0px;
+background: url(%%wcs-flair%%) no-repeat;
+background-position: 0 0;
+display: inline-block;
+height: 65px;
+line-height:65px;
+padding-left: 51px;
+vertical-align: middle;
+width: auto;
+}
+
+/* MASTERS SEASON FLAIR - OLD SEASON */
+
+.flair-m18s3 {
+   border: none !important;
+   top: 20px;
+   padding: 0px;
+   background: url(%%OLD-flair-m%%) no-repeat;
+   background-position: 0 0;
+   display: inline-block;
+   height: 25px;
+   line-height:25px;
+   padding-left: 25px;
+   vertical-align: middle;
+   width: auto
+}
+
+.flair-m18s3:hover:after {
+   background-image: none;
+   content: "2018 Season 3";
+   width: auto !important;
+   padding-right: 5px
+}
+
+/* MASTERS SEASON FLAIR - CURRENT */
+
+.flair-m18s4, .flair-m19s1, .flair-m19s2 {
+   border: none !important;
+   top: 20px;
+   padding: 0px;
+   background: url(%%flair-m%%) no-repeat;
+   background-position: 0 0;
+   display: inline-block;
+   height: 25px;
+   line-height:25px;
+   padding-left: 25px;
+   vertical-align: middle;
+   width: auto
+}
+
+.flair-m18s4:hover:after, .flair-m19s1:hover:after, .flair-m19s2:hover:after {
+   background-image: none;
+   width: auto !important;
+   padding-right: 5px
+}
+
+.flair-m18s4:hover:after {
+   content: "2018 Season 4";
+}
+
+.flair-m19s1:hover:after {
+   content: "2019 Season 1";
+}
+
+.flair-m19s2:hover:after {
+   content: "2019 Season 2";
+}
+
+
+/* GM SEASON FLAIR - OLD SEASON */
+
+.flair-gm18s3, .flair-gm18s3eu, .flair-gm18s3kr, .flair-gm18s3sea {
+   border: none !important;
+   top: 20px;
+   padding: 0px;
+   background: url(%%OLD-flair-m%%) no-repeat;
+   background-position: 0 0;
+   display: inline-block;
+   height: 25px;
+   line-height:25px;
+   padding-left: 25px;
+  vertical-align: middle; 
+  width: auto;
+}
+
+.flair-gm18s3:hover:after, .flair-gm18s3eu:hover:after, .flair-gm18s3kr:hover:after, .flair-gm18s3sea:hover:after {
+   background-image: none; 
+   width: auto !important; 
+   padding-right: 5px
+}
+
+.flair-gm18s3:hover:after {
+   content: "2018 Season 3 - AM"; 
+}
+
+.flair-gm18s3eu:hover:after {
+   content: "2018 Season 3 - EU"; 
+}
+
+.flair-gm18s3kr:hover:after {
+   content: "2018 Season 3 - KR";
+}
+
+.flair-gm18s3sea:hover:after {
+   content: "2018 Season 3 - SEA";
+}
+
+/* GM SEASON FLAIR - CURRENT */
+
+.flair-gm18s4, .flair-gm18s4eu, .flair-gm18s4kr, .flair-gm18s4sea, .flair-gm19s1, .flair-gm19s1eu, .flair-gm19s1kr, .flair-gm19s1sea, .flair-gm19s2, .flair-gm19s2eu, .flair-gm19s2kr, .flair-gm19s2sea, .flair-gm19s2 {
+   border: none !important;
+   top: 20px;
+   padding: 0px;
+   background: url(%%flair-gm%%) no-repeat;
+   background-position: 0 0;
+   display: inline-block;
+   height: 25px;
+   line-height:25px;
+   padding-left: 25px;
+   vertical-align: middle;
+   width: auto;
+}
+
+.flair-gm18s4:hover:after, .flair-gm18s4kr:hover:after, .flair-gm18s4eu:hover:after, .flair-gm18s4sea:hover:after, .flair-gm19s1:hover:after, .flair-gm19s1kr:hover:after, .flair-gm19s1eu:hover:after, .flair-gm19s1sea:hover:after, .flair-gm19s2:hover:after, .flair-gm19s2kr:hover:after, .flair-gm19s2eu:hover:after, .flair-gm19s2sea:hover:after, {
+   background-image: none;
+   width: auto !important;
+   padding-right: 5px
+}
+.flair-gm18s4:hover:after {
+   content: "2018 Season 4 - AM";
+}
+
+.flair-gm18s4eu:hover:after {
+   content: "2018 Season 4 - EU";
+}
+
+.flair-gm18s4kr:hover:after {
+   content: "2018 Season 4 - KR";
+}
+
+.flair-gm18s4sea:hover:after {
+   content: "2018 Season 4 - SEA";
+}
+
+.flair-gm19s1:hover:after {
+   content: "2019 Season 1 - AM";
+}
+
+.flair-gm19s1eu:hover:after {
+   content: "2019 Season 1 - EU";
+}
+
+.flair-gm19s1kr:hover:after {
+   content: "2019 Season 1 - KR";
+}
+
+.flair-gm19s1sea:hover:after {
+   content: "2019 Season 1 - SEA";
+}
+
+.flair-gm19s2:hover:after {
+   content: "2019 Season 2 - AM";
+}
+
+.flair-gm19s2eu:hover:after {
+   content: "2019 Season 2 - EU";
+}
+
+.flair-gm19s2kr:hover:after {
+   content: "2019 Season 2 - KR";
+}
+
+.flair-gm19s2sea:hover:after {
+   content: "2019 Season 2 - SEA";
+}
+
+/* END SEASON FLAIR */
+
+.flair-protoss {
+border: none !important;
+top: 20px; padding: 0px;
+background: url(%%p%%) no-repeat;
+background-position: 0 0;
+display: inline-block;
+height: 25px;
+line-height:25px;
+padding-left: 25px;
+vertical-align: middle;
+width: auto;
+}
+
+.flair-bronze, .flair-silver, .flair-gold, .flair-platinum, .flair-diamond {
+border: none !important;
+top: 20px; padding: 0px;
+background-position: 0 0;
+display: inline-block;
+height: 25px;
+line-height:25px;
+padding-left: 25px;
+vertical-align: middle;
+width: auto;
+}
+
+.flair-bronze {background-position: 0 0; height: 20px; line-height:20px;}
+.flair-silver {background-position: 0 -29px; height: 20px; line-height:20px;}
+.flair-gold {background-position: 0 -61px; height: 20px; line-height:20px;}
+.flair-platinum {background-position: 0 -91px; height: 20px; line-height:20px;}
+.flair-diamond {background-position: 0 -120px; height: 20px; line-height:20px;}
+
+/* BEGIN Linkflair -Danimal */
+.linkflair-ama .self.thumbnail {background: url(%%atp-self-ama%%);}
+.linkflair-scrm .self.thumbnail {background: url(%%atp-self-scrm%%);}
+.linkflair-modpost .self.thumbnail {background: url(%%atp-self-mod%%);}
+.linkflair-modpost.thing {background-image: url(%%mod-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-meta .self.thumbnail {background: url(%%atp-self-meta%%);}
+.linkflair-botw .self.thumbnail {background: url(%%atp-self-botw%%);}
+.linkflair-botw.thing {background-image: url(%%botw-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-pvp.thing {background-image: url(%%pvp-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-pvt.thing {background-image: url(%%pvt-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-pvz.thing {background-image: url(%%pvz-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-pvx.thing {background-image: url(%%pvx-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-rec.thing {background-image: url(%%rec-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-mcnx.thing {background-image: url(%%mechanics-bground%%);background-repeat: no-repeat; background-position: right;}
+.linkflair-econ.thing {background-image: url(%%econ-bground%%);background-repeat: no-repeat; background-position: right;}
+
+
+.linkflair-fluff .title a {color: #00;}
+.linkflair-fluff .linkflairlabel {color: #E0A8E6; background: white;}
+.linkflair-fluff.thing {background: url(%%fluffpost%%);}
+
+.linkflair-modpost .title a {color:green;}
+.linkflair-modpost .linkflairlabel {color: green; background: white;}
+#siteTable .thing.linkflair-modpost .md h2 {color: green;}
+#siteTable .thing.linkflair-modpost .title {color: green;}
+#siteTable .thing.tagline.flair {vertical-align: middle; line-height:25px;}
+
+/* END Linkflair */
+
+.stickied .title {color: #63BDC7!important;}
+.stickied-tagline {color: #63BDC7!important;}
+
+#header {
+ border-bottom:1px solid #ffe482;
+ position:relative;
+ background: url(%%atp-banner-no-text%%);
+ color: white;
+ background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    transition: all .5s ease;
+ vertical-align: bottom;
+ }
+
+#header-bottom-left{
+    background-color: transparent;
+    height: 190px;
+}
+
+#header-bottom-left ul.tabmenu {
+  /* background: #7abed6; */
+  position: absolute;
+  left: 5px;
+  top: 187px;
+}
+
+/* Borrowed from /r/Hearthstone. Modified by Danimal. */
+#header-bottom-right {
+    position: absolute !important;
+    right: 7px !important;
+    top: 23px !important;
+    bottom: 0px !important;
+    height: 9px !important;
+    background-color: #3f3f3f !important;
+    border-radius: 8px !important;
+    border-right: 2px solid #7abed6 !important;
+    border-bottom: 2px solid #7abed6 !important; 
+    font-size: 9px !important;
+    font-weight: bold;
+    line-height: 9px !important;
+    padding: 8px 9px !important;
+    text-transform: lowercase !important;
+    z-index: 1000 !important;
+}
+
+#header-bottom-right a {color: #EDEDED;}
+#header-bottom-right .user {color: #EFEFEF;}
+#header-bottom-right .userkarma {color: #ffe482;}
+#header-bottom-right .separator {color: #67CCD7;}
+
+#header-img {transition: background-image 0.25s ease;
+    -moz-transition: all 0.25s ease 0s;
+    margin: 95px 0px 0px 0px;
+    /* z-index: 1000000; */
+    position: absolute;
+}
+
+#header-img-a{
+    outline:none;
+    line-height: 0;
+    font-size: 0;
+    margin: 0; padding: 0;
+}
+
+.pagename a{
+    background-image:url(%%atp-banner-text%%);
+    font-size: 0px;
+    display: block;
+    visibility: visible!important;
+    background-position: 40px -20px;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    z-index: 99;
+    top: 10px;
+    left: 600px;
+    width: 680px;
+    height: 150px;
+    margin: auto;
+    transition: background-image 0.25s ease;
+}
+
+
+#link-desc:after, #text-desc:after {
+    display: block;
+    width: 500px;
+    margin-top: 1em;
+    font-size: 150%;
+    color: red;
+    content: "Please delete your posts about your stream when you are done. Thank you." url(%%lbr%%) "Please search the subreddit or check the sidebar before asking for builds!" url(%%lbr%%) "If possible, please post a link to a replay if you are asking for help!" !important;
+    max-width: 500px !important; /* the image is 600px */
+   white-space: pre-wrap;
+}
+
+.users-online:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-image: url(%%psistorm%%);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+/* Custom Gilded Icon */
+.gilded-comment-icon:before {
+background-image: url(%%atp-gilded%%) !important;
+background-position: 0px !important;
+height: 14px !important;
+width: 14px !important;
+margin-right: 1px !important;
+vertical-align: -1px !important;
+}
+
+
+.redditname {color: white;}
+
+.pagename {color: white;}
+
+.hover {color: black;}

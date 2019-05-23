@@ -1,0 +1,48 @@
+title: pvp
+set_flair: ["PvP", "pvp"]
+---
+title: ["pvt", "tvp", "liberator", "liberators", "mmmm", "tank", "tanks", "mine", "mines", "marine", "libs", "mmm", mech", "bio", "cyclone", "reaper", "terran", "thor", "thors", "rax", "banshee"]
+set_flair: ["PvT", "pvt"]
+---
+title: ["pvz", "zvp", "pool", "ling", "lings", "lurker", "lurkers", "roach", "roaches", "roachs", "hatch", "muta", "mutas", "mutalisk", "hydralisk", "hydra", "hydras", "ravager", "corruptor", "zerg", "swarmhost", "locust", "broods", "broodlords"]
+set_flair: ["PvZ", "pvz"]
+---
+title: ["recruiting", "recruit", "recruitment"]
+set_flair: ["Recruitment", "rec"]
+---
+title: ["micro", "mechanics", "hotkeys"]
+set_flair: ["Mechanics", "mcnx"]
+---
+title: ["macro", "econ", "economy"]
+set_flair: ["Macro/Econ", "econ"]
+---
+title: ["pvx", "random", "all races"]
+set_flair: ["PvX/Random", "pvx"]
+---
+type: submission
+author:
+    account_age: "< 30"
+    ~name: "Sly_toss"
+action: filter
+modmail: "Filtered POST from account less than 30 days old: {{permalink}} by {{author}}. Please check for spam and remove/approve as needed."
+---
+type: comment
+author:
+    account_age: "< 30"
+    is_submitter: false
+    ~name: "Sly_toss"
+action: filter
+modmail: "Filtered COMMENT from account less than 30 days old: {{permalink}} by {{author}}. Please check for spam and remove/approve as needed."
+---
+type: submission
+title (includes): ["sc2swarm", "sc2swarm.com", "terrancraft", "coming back", "standard opening", "returning player", "basic build orders"]
+comment: "Hi there! It looks like you're looking for Protoss builds. Did you know there is an incredibly helpful link up in the header and over in the sidebar to our [Build of the Week archive](https://docs.google.com/document/d/1CxAiv5lcPCT4pIZfZe91l8ZDGTKTGnlPaiMDTmfpPeU/edit)? There you will find every featured BOTW sorted by match-up and coded by Beginner/Intermediate/Advanced difficulty. If you don't find what you're looking for there, or have questions about a specific build, don't hesitate to ask. Hope this helps!"
+comment_stickied: true
+---
+type: submission
+body (includes): ["sc2swarm", "sc2swarm.com", "terrancraft"]
+comment: "Hi there! It looks like you're looking for Protoss builds. Did you know there is an incredibly helpful link up in the header and over in the sidebar to our [Build of the Week archive](https://docs.google.com/document/d/1CxAiv5lcPCT4pIZfZe91l8ZDGTKTGnlPaiMDTmfpPeU/edit)? There you will find every featured BOTW sorted by match-up and coded by Beginner/Intermediate/Advanced difficulty. If you don't find what you're looking for there, or have questions about a specific build, don't hesitate to ask. Hope this helps!"
+comment_stickied: true
+
+
+   
